@@ -65,8 +65,8 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ### Author
 
-Ansh Bhatt - Github(https://github.com/BhattAnsh)
-Linkdin - LinkdIn(www.linkedin.com/in/ansh-bhatt-py)
+Ansh Bhatt - [GitHub](https://github.com/BhattAnsh)
+Linkdin - [Linkdin](www.linkedin.com/in/ansh-bhatt-py)
 
 ### Acknowledgements
 
