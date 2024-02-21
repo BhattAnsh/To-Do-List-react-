@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+### Pomodoro To-Do List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Pomodoro To-Do List application is built using React and allows users to manage their tasks while incorporating a Pomodoro timer to improve productivity.
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+- **Task Management**: Users can add, remove, and track their tasks.
+- **Pomodoro Timer**: Integrated Pomodoro timer helps users focus on tasks with timed work and break sessions.
+- **Settings**: Customizable settings for Pomodoro timer lengths and accent colors.
+- **Responsive Design**: The application is designed to be responsive and accessible across various devices.
 
-### `npm start`
+### Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/pomodoro-todo-app.git
+   ```
 
-### `npm test`
+2. Navigate to the project directory:
+   ```
+   cd pomodoro-todo-app
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm run build`
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Open your web browser and visit `http://localhost:3000` to view the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Adding Tasks**: Enter a task in the input field and click the "Add Task" button to add it to the list.
+- **Completing Tasks**: Click on the checkbox next to a task to mark it as completed.
+- **Deleting Tasks**: Click on the delete icon next to a task to remove it from the list.
+- **Pomodoro Timer**: Use the controls to start, pause, and reset the Pomodoro timer. Customize timer lengths and settings in the settings pane.
 
-### `npm run eject`
+### Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Components**: The application is divided into several components for better organization and reusability.
+  - `Navbar`: Navigation bar component.
+  - `DayDate`: Component to display the current day.
+  - `TimerDisplay`: Component to display the Pomodoro timer.
+  - `Controls`: Component to control the Pomodoro timer.
+  - `Button`: Component for buttons with different functionalities.
+  - `Settings`: Component for customizing Pomodoro timer settings.
+- **Styling**: Styling is managed using CSS files, including `App.css` and separate CSS files for individual components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
 
-## Learn More
+### Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Ansh Bhatt - [Your GitHub Profile](https://github.com/BhattAnsh)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Acknowledgements
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Special thanks to the creators of React and other open-source libraries used in this project.
