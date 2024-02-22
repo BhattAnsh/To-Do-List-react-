@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Navbar } from './Components/Navbar';
 import DayDate from './Components/Todo/getDay';
 import './App.css';
 import TimerDisplay from './Components/Pomodoro/Timer/Timer';
@@ -104,7 +103,6 @@ function App() {
 
   return (
     <>
-      <Navbar />
       <main>
         <section id="sunny">
           <div className="to-do-card-container">
