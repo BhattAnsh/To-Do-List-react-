@@ -1,5 +1,21 @@
 
-body{
+
+:root {
+  --primary-color: #171717;
+  --secondary-color: #444444;
+  --tertiary-color: #E5E5E5;
+  --fourth-color: #030712;
+  --fifth-color: #DA0037;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-left: var(--sidebar-width);
+  color: #47454d;
+  background-color: var(--primary-color);
   font-family: "Raleway", sans-serif;
 }
 :root {
